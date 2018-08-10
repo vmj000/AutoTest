@@ -36,7 +36,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
              // Telling the system where to find the chrome driver
         System.setProperty(
                 "webdriver.chrome.driver",
-        		"/var/lib/jenkins/workspace/testinggit/chromedriver");
+        		"/var/lib/jenkins/workspace/testinggit/");
              //   "/home/delphix/chromedriver");
 
 
@@ -126,6 +126,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
             // Waiting a bit before closing
         //Thread.sleep(7000);
+      
               
             }
 
