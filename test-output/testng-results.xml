@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My sample Suite" duration-ms="6421" started-at="2018-08-10T00:47:28Z" finished-at="2018-08-10T00:47:34Z">
+    <groups>
+    </groups>
+    <test name="Emp test" duration-ms="6421" started-at="2018-08-10T00:47:28Z" finished-at="2018-08-10T00:47:34Z">
+      <class name="TestSuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestSuite@68be2bc2]" name="setup" is-config="true" duration-ms="1387" started-at="2018-08-10T00:47:28Z" finished-at="2018-08-10T00:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:TestSuite@68be2bc2]" name="Testcase1" duration-ms="2104" started-at="2018-08-10T00:47:29Z" finished-at="2018-08-10T00:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="Testcase2()[pri:0, instance:TestSuite@68be2bc2]" name="Testcase2" duration-ms="2799" started-at="2018-08-10T00:47:31Z" finished-at="2018-08-10T00:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSuite@68be2bc2]" name="teardown" is-config="true" duration-ms="102" started-at="2018-08-10T00:47:34Z" finished-at="2018-08-10T00:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestSuite -->
+    </test> <!-- Emp test -->
+  </suite> <!-- My sample Suite -->
+</testng-results>
