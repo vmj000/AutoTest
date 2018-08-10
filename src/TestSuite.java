@@ -38,7 +38,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
         System.setProperty(
                 "webdriver.chrome.driver",
         		// "/var/lib/jenkins/workspace/testinggit/chromedriver");
-               "/Users/jinum/Downloads/chromedriver");
+               //"/Users/jinum/Downloads/chromedriver");
+                "./chromedriver");
 
 
             // Open the Chrome browser
