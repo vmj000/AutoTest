@@ -36,7 +36,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
              // Telling the system where to find the chrome driver
         System.setProperty(
                 "webdriver.chrome.driver",
-                "/Users/jinum/Documents/chromedriver");
+                "/home/delphix/chromedriver");
 
 
             // Open the Chrome browser
