@@ -2,6 +2,7 @@
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+
 //import org.testng.annotations.AfterClass;
 //import org.testng.annotations.Test;
 //import org.testng.annotations.BeforeClass;
@@ -125,7 +126,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 
             // Waiting a bit before closing
-        //Thread.sleep(7000);
+     
+      try {
+    	    Thread.sleep(7000);
+    	} catch (InterruptedException e) {
+    	    // TODO Auto-generated catch block
+    	    e.printStackTrace();
+    	}
       
               
             }
@@ -290,7 +297,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
           webDriver.findElement(By.xpath("(//button[contains(text(),'Add')])")).click();
            
            // Waiting a bit before closing
-        //Thread.sleep(7000);
+          try {
+      	    Thread.sleep(7000);
+      	} catch (InterruptedException e) {
+      	    // TODO Auto-generated catch block
+      	    e.printStackTrace();
+      	}
             
            
 
