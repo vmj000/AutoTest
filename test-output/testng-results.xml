@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24040" started-at="2018-08-10T09:38:12Z" finished-at="2018-08-10T09:38:36Z">
+  <suite name="My sample Suite" duration-ms="21899" started-at="2018-08-24T05:56:59Z" finished-at="2018-08-24T05:57:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24040" started-at="2018-08-10T09:38:12Z" finished-at="2018-08-10T09:38:36Z">
+    <test name="Emp test" duration-ms="21899" started-at="2018-08-24T05:56:59Z" finished-at="2018-08-24T05:57:21Z">
       <class name="TestSuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestSuite@6ee52dcd]" name="setup" is-config="true" duration-ms="1486" started-at="2018-08-10T09:38:12Z" finished-at="2018-08-10T09:38:14Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestSuite@68be2bc2]" name="setup" is-config="true" duration-ms="2205" started-at="2018-08-24T05:56:59Z" finished-at="2018-08-24T05:57:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Testcase1()[pri:0, instance:TestSuite@6ee52dcd]" name="Testcase1" duration-ms="12270" started-at="2018-08-10T09:38:14Z" finished-at="2018-08-10T09:38:26Z">
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:TestSuite@68be2bc2]" name="Testcase1" duration-ms="9622" started-at="2018-08-24T05:57:01Z" finished-at="2018-08-24T05:57:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase1 -->
-        <test-method status="PASS" signature="Testcase2()[pri:0, instance:TestSuite@6ee52dcd]" name="Testcase2" duration-ms="10142" started-at="2018-08-10T09:38:26Z" finished-at="2018-08-10T09:38:36Z">
+        <test-method status="PASS" signature="Testcase2()[pri:0, instance:TestSuite@68be2bc2]" name="Testcase2" duration-ms="9944" started-at="2018-08-24T05:57:11Z" finished-at="2018-08-24T05:57:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase2 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSuite@6ee52dcd]" name="teardown" is-config="true" duration-ms="118" started-at="2018-08-10T09:38:36Z" finished-at="2018-08-10T09:38:36Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSuite@68be2bc2]" name="teardown" is-config="true" duration-ms="111" started-at="2018-08-24T05:57:21Z" finished-at="2018-08-24T05:57:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestSuite -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Emp test -->
+  </suite> <!-- My sample Suite -->
 </testng-results>
